@@ -23,7 +23,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Fullstack', 'Frontend', 'Backend', 'Cloud', 'Scrum'];
 
 const Home = () => {
   const { status } = useRouteTransition();
@@ -139,7 +139,7 @@ const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Hamish Williams | Designer + Developer</title>
+        <title>Jesse Chung | Software Developer</title>
         <meta
           name="description"
           content="Portfolio of Hamish Williams – a digital designer working on web &amp; mobile
@@ -176,11 +176,32 @@ const Home = () => {
         }}
       />
       <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={2}
+        title="Biomedical image collaboration"
+        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        buttonText="View Project"
+        buttonLink="/projects/slice"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              src: sliceTexture,
+              srcSet: `${sliceTexture} 980w, ${sliceTextureLarge} 1376w`,
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
         id="project-2"
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
-        index={2}
+        index={3}
         title="Video game progress tracking"
         description="Design and development for a video game tracking app built in React Native"
         buttonText="View Website"
@@ -198,27 +219,6 @@ const Home = () => {
               src: gamestackTexture2,
               srcSet: `${gamestackTexture2} 254w, ${gamestackTexture2Large} 508w`,
               placeholder: gamestackTexture2Placeholder,
-            },
-          ],
-        }}
-      />
-      <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
-        index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View Project"
-        buttonLink="/projects/slice"
-        model={{
-          type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
-          textures: [
-            {
-              src: sliceTexture,
-              srcSet: `${sliceTexture} 980w, ${sliceTextureLarge} 1376w`,
-              placeholder: sliceTexturePlaceholder,
             },
           ],
         }}

@@ -30,19 +30,26 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you're interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Jesse, I live in Seattle and completing an MSCS degree 
+      at{' '} <Link href="https://www.qwilr.com">Seattle University</Link>. 
+      I am expected to graduate in June or December 2023 and I am looking for a summer internship for 2022 and 2023.
+      so please contact me if you are looking for a software engineer.<br></br>
+      My experience includes software development, problem solving, and data science. 
+      During my first internship at Nissan Taiwan, I gained hands-on experience coding with mentors, 
+      collaborating on software projects, and testing features on the system. 
+      More importantly, I learned how to cultivate a growth mindset to improve myself. 
+      If you're interested in my skills and experience I
+      please check out my <Link href="/uses">skills page</Link>.
     </Text>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      In my spare time I like to learn new things about software development. <br></br>
+      I also like to play video games such as Pokémon and FPS game.
+      During weekends I like to go hiking and biking.
+      and {' '}
+      <Link href="/projects/volkihar-knight">make mods</Link>.
     </Text>
   </Fragment>
 );

@@ -73,32 +73,10 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                 className={classNames('intro__name', `intro__name--${status}`)}
                 id={titleId}
               >
-                <DecoderText text="Hamish Williams" start={!prerender} delay={300} />
+                <DecoderText text="Jesse Chung" start={!prerender} delay={300} />
               </h1>
               <Heading level={0} as="h2" className="intro__title">
-                <VisuallyHidden className="intro__title-label">{`Designer + ${introLabel}`}</VisuallyHidden>
-                <span
-                  aria-hidden
-                  className={classNames('intro__title-row', {
-                    'intro__title-row--hidden': prerender,
-                  })}
-                >
-                  <span
-                    className={classNames(
-                      'intro__title-word',
-                      `intro__title-word--${status}`
-                    )}
-                    style={{ '--delay': tokens.base.durationXS }}
-                  >
-                    Designer
-                  </span>
-                  <span
-                    className={classNames(
-                      'intro__title-line',
-                      `intro__title-line--${status}`
-                    )}
-                  />
-                </span>
+                <VisuallyHidden className="intro__title-label">{`Developer + ${introLabel}`}</VisuallyHidden>
                 <TransitionGroup
                   className={classNames('intro__title-row', {
                     'intro__title-row--hidden': prerender,
@@ -128,6 +106,24 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                     </Transition>
                   ))}
                 </TransitionGroup>
+                
+                <span
+                  aria-hidden
+                  className={classNames('intro__title-row', {
+                    'intro__title-row--hidden': prerender,
+                  })}
+                >
+                  <span
+                    className={classNames(
+                      'intro__title-word',
+                      `intro__title-word--${status}`
+                    )}
+                    style={{ '--delay': tokens.base.durationXS }}
+                  >
+                    Developer
+                  </span>
+
+                </span>
               </Heading>
             </header>
             {windowSize.width > media.tablet && (

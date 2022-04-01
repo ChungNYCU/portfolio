@@ -1,14 +1,37 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+                 
+    █       ███  
+  ███       █    
+     ██████████  
+   ████       ██ 
+ ██       █      
+ ███             
+   ██████        
+        ███      
+          ██     
+          ██     
+         ██      
+        ██       
+                 
+
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+WEB DEVELOPER
+
+Jesse Chung
+web development
+
+Dev tools:
+Visual Studio Code
+
+github.com/ChungNYCU
+
+_______________________________________________________________________________
+
+REFERENCE
 
 Hamish Williams
 Hand crafted design & web development
@@ -22,7 +45,7 @@ github.com/hamishmw
 
 _______________________________________________________________________________
 
-TECHNOLOGY | テクノロジー
+TECHNOLOGY
 
 React
 Three js
@@ -30,7 +53,7 @@ Popmotion
 
 _______________________________________________________________________________
 
-FONTS | フォント
+FONTS
 
 Gotham
 Hiragino Kaku Gothic

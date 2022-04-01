@@ -5,7 +5,7 @@ export const navLinks = [
     hash: '#project-1',
   },
   {
-    label: 'Details',
+    label: 'Intro',
     pathname: '/',
     hash: '#details',
   },
@@ -22,7 +22,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://twitter.com/wcc0101',
     icon: 'twitter',
   },
   {
@@ -31,8 +31,13 @@ export const socialLinks = [
     icon: 'figma',
   },
   {
+    label: 'Linkedin',
+    url: 'https://www.linkedin.com/in/jessetw/',
+    icon: 'linkedin',
+  },
+  {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/ChungNYCU',
     icon: 'github',
   },
 ];

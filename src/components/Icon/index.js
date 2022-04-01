@@ -11,6 +11,7 @@ import { ReactComponent as Send } from 'assets/icons/send.svg';
 import { ReactComponent as Play } from 'assets/icons/play.svg';
 import { ReactComponent as Pause } from 'assets/icons/pause.svg';
 import { ReactComponent as Figma } from 'assets/icons/figma.svg';
+import { ReactComponent as Linkedin } from 'assets/icons/linkedin.svg';
 import './index.css';
 
 export const icons = {
@@ -26,6 +27,7 @@ export const icons = {
   play: Play,
   pause: Pause,
   figma: Figma,
+  linkedin: Linkedin
 };
 
 const Icon = ({ icon, style, className, ...rest }) => {
