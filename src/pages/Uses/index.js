@@ -77,11 +77,11 @@ const Uses = () => {
                     as my text editor and IDE.
                   </li>
                   <li>
-                    My most expirence on cloud service is <Link href="https://azure.microsoft.com/en-us/">Azure</Link>
-                    , and then is <Link href="https://aws.amazon.com/">AWS</Link>.</li>
+                    My most professional cloud service is <Link href="https://azure.microsoft.com/en-us/">Azure</Link>, 
+                    and then is <Link href="https://aws.amazon.com/">AWS</Link>.</li>
                   <li>
-                    I like to use Microsoft <Link href="https://dotnet.microsoft.com/en-us/">.Net</Link> platform to develop web services, 
-                    .NET MVC is a very concise design patterns.
+                    I like to use Microsoft <Link href="https://dotnet.microsoft.com/en-us/">.Net</Link> platform to develop web services; 
+                    .NET MVC is a very concise design pattern.
                   </li>
                   <li>
                   <Link href="https://www.microsoft.com/en-us/edge/business">Microsoft edge</Link> {' '}
