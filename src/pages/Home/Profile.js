@@ -31,9 +31,9 @@ const ProfileText = ({ status, titleId }) => (
       size="l"
     >
       I’m Jesse, I live in Seattle and completing an MSCS degree 
-      at{' '} <Link href="https://www.qwilr.com">Seattle University</Link>. 
+      at{' '} <Link href="https://www.seattleu.edu/scieng/computer-science/graduate/mscs/software-engineering-specialization/">Seattle University</Link>. 
       I am expected to graduate in June or December 2023 and I am looking for a summer internship for 2022 and 2023.
-      so please contact me if you are looking for a software engineer.<br></br>
+      so please contact me if you are looking for a software engineer.<br></br><br></br>
       My experience includes software development, problem solving, and data science. 
       During my first internship at Nissan Taiwan, I gained hands-on experience coding with mentors, 
       collaborating on software projects, and testing features on the system. 
@@ -45,11 +45,9 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time I like to learn new things about software development. <br></br>
+      In my spare time I like to learn new things about software development. 
       I also like to play video games such as Pokémon and FPS game.
       During weekends I like to go hiking and biking.
-      and {' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>.
     </Text>
   </Fragment>
 );
