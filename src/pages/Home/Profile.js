@@ -38,7 +38,7 @@ const ProfileText = ({ status, titleId }) => (
       During my first internship at Nissan Taiwan, I gained hands-on experience coding with mentors, 
       collaborating on software projects, and testing features on the system. 
       More importantly, I learned how to cultivate a growth mindset to improve myself. 
-      If you're interested in my skills and experience I
+      If you're interested in my skills and experience
       please check out my <Link href="/uses">skills page</Link>.
     </Text>
     <Text

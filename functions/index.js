@@ -14,7 +14,7 @@ const ses = new aws.SES({
   region: 'us-east-1',
 });
 
-const ORIGIN = 'https://hamishw.com';
+const ORIGIN = 'http://jesse-chung.s3-website-us-west-2.amazonaws.com/';
 const MAX_EMAIL_LENGTH = 512;
 const MAX_MESSAGE_LENGTH = 4096;
 

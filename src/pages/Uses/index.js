@@ -25,7 +25,7 @@ const Uses = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Uses | Hamish Williams</title>
+        <title>Skills | Jesse Chung</title>
         <meta
           name="description"
           content="A list of hardware and software I use to do my thing"
@@ -39,32 +39,26 @@ const Uses = () => {
           entered={!prerender}
         />
         <ProjectHeader
-          title="Uses"
-          description="A somewhat comprehensive list of tools, apps, hardware, and more that I use on a daily basis to design and code things. And yeah, that is a Johnny Mnemonic GIF in the background."
+          title="Skills and uses"
+          description="A somewhat comprehensive list of tools, apps, hardware, and more that I use on a daily basis to design and code things."
         />
         <ProjectSection first className="uses__section">
           <ProjectSectionContent>
             <ProjectTextRow width="m">
-              <ProjectSectionHeading>Design</ProjectSectionHeading>
+              <ProjectSectionHeading>Skills</ProjectSectionHeading>
               <ProjectSectionText>
                 <ul>
                   <li>
-                    <Link href="https://www.figma.com">Figma</Link> is my primary tool for
-                    UI design these days. Made the switch from Sketch in 2020 and haven't
-                    looked back. I've also created{' '}
-                    <Link href="https://www.figma.com/@hamish">a few plugins</Link> that
-                    you can install.
+                    C#, Python, HTML, CSS, SQL, JavaScript, JAVA                    
                   </li>
                   <li>
-                    Any motion graphics I create are created in Adobe After Effects. So
-                    far I haven't found a non-Adobe product that's as good. If anyone has
-                    suggestions please <Link href="/contact">message me</Link>.
+                    Full-stack development, Scrum, cloud service, database, unit testing, RESTful API, blockchain
                   </li>
                   <li>
-                    For any 3D models I use{' '}
-                    <Link href="https://www.blender.org/">Blender</Link>. Since 2.8 it's
-                    become way simpler to use and in a lot of ways better than expensive
-                    paid tools like 3DS Max or Maya.
+                    Azure, Git, Linux, Visual Studio, AWS, SQL server
+                  </li>
+                  <li>
+                    Creativity, leadership, problem solving
                   </li>
                 </ul>
               </ProjectSectionText>
@@ -80,45 +74,23 @@ const Uses = () => {
                   <li>
                     I use{' '}
                     <Link href="https://code.visualstudio.com/">Visual Studio Code</Link>{' '}
-                    as my text editor, with the Atom One Dark theme and Operator Mono as
-                    my typeface of choice.
+                    as my text editor and IDE.
                   </li>
                   <li>
-                    Firefox is my main browser for both development and general use.
+                    My most expirence on cloud service is <Link href="https://azure.microsoft.com/en-us/">Azure</Link>
+                    , and then is <Link href="https://aws.amazon.com/">AWS</Link>.</li>
+                  <li>
+                    I like to use Microsoft <Link href="https://dotnet.microsoft.com/en-us/">.Net</Link> platform to develop web services, 
+                    .NET MVC is a very concise design patterns.
                   </li>
                   <li>
-                    <Link href="https://reactjs.org/">React</Link> is my front end
-                    Javascript library of choice. The component-centric mental model is
-                    the first thing that truly made sense to me as a designer.
+                  <Link href="https://www.microsoft.com/en-us/edge/business">Microsoft edge</Link> {' '}
+                  is my main browser for both development and general use.
                   </li>
                   <li>
-                    For 3D effects and image shaders I use{' '}
-                    <Link href="https://threejs.org/">three.js</Link>. It has a bit of a
-                    learning curve but you can do some really powerful stuff with it.
-                  </li>
-                  <li>
-                    For CSS I've used a myriad pre-processors and css-in-js solutions like
-                    styled-components, but these days I'm using vanilla CSS with{' '}
-                    <Link href="https://postcss.org/">PostCSS</Link> to get upcoming CSS
-                    features today.
-                  </li>
-                  <li>
-                    For Javascript animations I use{' '}
-                    <Link href="https://popmotion.io/api/">Popmotion Pure 8</Link>, it's a
-                    great way to add spring animations to three.js. All other animations
-                    are CSS with{' '}
-                    <Link href="https://reactcommunity.org/react-transition-group/">
-                      React Transition Group
-                    </Link>{' '}
-                    for enter/exit transitions.
-                  </li>
-                  <li>
-                    For building and testing UI components in isolation I use{' '}
-                    <Link href="https://storybook.js.org/">Storybook</Link>. Check out the{' '}
-                    <Link href="https://storybook.hamishw.com">
-                      storybook for this website
-                    </Link>
-                    .
+                    Currently, I choose to learn to <Link href="https://reactjs.org/">React</Link> as my frontend
+                    Javascript library. The component-centric mental model is
+                    the first thing that truly made sense to me as a developer.
                   </li>
                 </ul>
               </ProjectSectionText>
@@ -132,63 +104,51 @@ const Uses = () => {
               <Table>
                 <TableRow>
                   <TableCell>
-                    <strong>CPU</strong>
+                    <strong>Mac</strong>
                   </TableCell>
-                  <TableCell>AMD Ryzen 5800x</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>
-                    <strong>GPU</strong>
-                  </TableCell>
-                  <TableCell>MSI Gaming X Trio RTX 3080</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>
-                    <strong>Memory</strong>
-                  </TableCell>
-                  <TableCell>GSkill 32GB DDR4 3600mhz CAS 18</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>
-                    <strong>Motherboard</strong>
-                  </TableCell>
-                  <TableCell>MSI B550 Tomahawk</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>
-                    <strong>Monitor</strong>
-                  </TableCell>
-                  <TableCell>1440p IPS 144hz LG 27GL850</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>
-                    <strong>Keyboard</strong>
-                  </TableCell>
-                  <TableCell>Logitech MX Keys</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell>
-                    <strong>Mouse</strong>
-                  </TableCell>
-                  <TableCell>Logitech G403</TableCell>
+                  <TableCell>2021 MacBook Pro 13 - Intel</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>
                     <strong>Laptop</strong>
                   </TableCell>
-                  <TableCell>2015 Macbook Pro</TableCell>
+                  <TableCell>ASUS - ROG Zephyrus M16 GU603</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>
-                    <strong>Headphones</strong>
+                    <strong>CPU</strong>
                   </TableCell>
-                  <TableCell>Audio Technica ATH-M50x/Apple Airpods</TableCell>
+                  <TableCell>Intel Core i9-11900H</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>
-                    <strong>Microphone</strong>
+                    <strong>GPU</strong>
                   </TableCell>
-                  <TableCell>Blue Yeti</TableCell>
+                  <TableCell>NVIDIA RTX 3060</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <strong>Memory</strong>
+                  </TableCell>
+                  <TableCell>16GB</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <strong>Monitor</strong>
+                  </TableCell>
+                  <TableCell>1600p IPS 165hz</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <strong>Keyboard</strong>
+                  </TableCell>
+                  <TableCell>FILCO Majestouch Ninja</TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <strong>Mouse</strong>
+                  </TableCell>
+                  <TableCell>Logitech G304</TableCell>
                 </TableRow>
               </Table>
             </ProjectTextRow>
