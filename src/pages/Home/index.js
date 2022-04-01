@@ -156,13 +156,42 @@ const Home = () => {
       />
       <ProjectSummary
         id="project-1"
+        alternate
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Image process API"
+        description="Design and development an image process API deployed on Azure can provide several functions for processing images"
         buttonText="View Project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://github.com/ChungNYCU/image-process-api"
+        //buttonLink="/projects/volkihar-knight"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              src: gamestackTexture,
+              srcSet: `${gamestackTexture} 254w, ${gamestackTextureLarge} 508w`,
+              placeholder: gamestackTexturePlaceholder,
+            },
+            {
+              src: gamestackTexture2,
+              srcSet: `${gamestackTexture2} 254w, ${gamestackTexture2Large} 508w`,
+              placeholder: gamestackTexture2Placeholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-2"
+        sectionRef={projectTwo}
+        visible={visibleSections.includes(projectTwo.current)}
+        index={2}
+        title="Online Resume Builder"
+        description="Designing a web service to help candidates build their resume"
+        buttonText="View Project"
+        buttonLink="https://5110dreamcrushers.azurewebsites.net/"
+        //buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -179,11 +208,12 @@ const Home = () => {
         id="project-3"
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
-        index={2}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        index={3}
+        title="Simulate denoised bulk RNA-seq data"
+        description="Construct an algorithm to simulate traditional bulk RNA sequencing (bulk RNA-seq) data by single-cell RNA sequencing (scRNA-seq) data"
         buttonText="View Project"
-        buttonLink="/projects/slice"
+        buttonLink="https://github.com/ChungNYCU/Ensembles-scRNA-seq-data-to-simulate-denoised-bulk-RNA-seq-data"
+        //buttonLink="/projects/slice"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -192,33 +222,6 @@ const Home = () => {
               src: sliceTexture,
               srcSet: `${sliceTexture} 980w, ${sliceTextureLarge} 1376w`,
               placeholder: sliceTexturePlaceholder,
-            },
-          ],
-        }}
-      />
-      <ProjectSummary
-        id="project-2"
-        alternate
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
-        index={3}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View Website"
-        buttonLink="https://gamestack.hamishw.com"
-        model={{
-          type: 'phone',
-          alt: 'App login screen',
-          textures: [
-            {
-              src: gamestackTexture,
-              srcSet: `${gamestackTexture} 254w, ${gamestackTextureLarge} 508w`,
-              placeholder: gamestackTexturePlaceholder,
-            },
-            {
-              src: gamestackTexture2,
-              srcSet: `${gamestackTexture2} 254w, ${gamestackTexture2Large} 508w`,
-              placeholder: gamestackTexture2Placeholder,
             },
           ],
         }}

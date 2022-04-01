@@ -27,7 +27,7 @@ export const socialLinks = [
   },
   {
     label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
+    url: '',
     icon: 'figma',
   },
   {
