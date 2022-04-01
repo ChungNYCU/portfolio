@@ -142,8 +142,8 @@ const Home = () => {
         <title>Jesse Chung | Software Developer</title>
         <meta
           name="description"
-          content="Portfolio of Hamish Williams – a digital designer working on web &amp; mobile
-          apps with a focus on motion and user experience design."
+          content="Portfolio of Jesse Chung - a software developer working on web &amp; mobile
+          apps with a focus on code quality and user experience design."
         />
         <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
         <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />
