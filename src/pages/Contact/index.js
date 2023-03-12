@@ -119,7 +119,7 @@ const Contact = () => {
                   style={getDelay(tokens.base.durationXS, initDelay, 0.3)}
                 >
                   <DecoderText
-                    text="Say hello (WIP)"
+                    text="Say hello"
                     start={status !== 'exited' && !prerender}
                     delay={300}
                   />
