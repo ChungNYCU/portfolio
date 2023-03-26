@@ -1,13 +1,16 @@
 import './index.css';
 
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
-import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
-import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
+// import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
+// import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
+// import gamestackTexture2 from 'assets/gamestack-list.jpg';
+// import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
+// import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
+// import gamestackTexture from 'assets/gamestack-login.jpg';
 import iphone11 from 'assets/iphone-11.glb';
 import macbookPro from 'assets/macbook-pro.glb';
+import issueTextureLarge from 'assets/issue-app-large.jpg';
+import issueTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
+import issueTexture from 'assets/issue-app.jpg';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
@@ -154,7 +157,7 @@ const Home = () => {
         disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
-      <ProjectSummary
+      {/* <ProjectSummary
         id="project-1"
         alternate
         sectionRef={projectOne}
@@ -181,16 +184,38 @@ const Home = () => {
             },
           ],
         }}
+      /> */}
+      <ProjectSummary
+        id="project-1"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={1}
+        title="GitHub Issues checker"
+        description="Using the GitHub API allows users to add, update, search GitHub repository issues as tasks, and update the status of them."
+        buttonText="View Project"
+        buttonLink="https://react-github-issues-checker.vercel.app/"
+        //buttonLink="/projects/smart-sparrow"
+        model={{
+          type: 'laptop',
+          alt: 'Smart Sparrow lesson builder',
+          textures: [
+            {
+              src: issueTexture,
+              srcSet: `${issueTexture} 800w, ${issueTextureLarge} 1440w`,
+              placeholder: issueTexturePlaceholder,
+            },
+          ],
+        }}
       />
       <ProjectSummary
         id="project-2"
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Online Resume Builder"
-        description="Designing a web service to help candidates build their resume"
+        title="Tool for Azure Form Recognizer"
+        description="Open Source project for user evaluate Microsoft Form Recognizer, and provide React components allow user integrate the service into their own system."
         buttonText="View Project"
-        buttonLink="https://5110dreamcrushers.azurewebsites.net/"
+        buttonLink="https://react-msft-form-recognizer.azurewebsites.net/"
         //buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
